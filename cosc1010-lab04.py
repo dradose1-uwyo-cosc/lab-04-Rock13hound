@@ -1,8 +1,8 @@
-# Your Name Here
+# Elijah Gertsch
 # UWYO COSC 1010
-# Submission Date
-# Lab 03 
-# Lab Section: 
+# Submission Date 10/01/2024
+# Lab 04
+# Lab Section: 11
 # Sources, people worked with, help given to: 
 # your
 # comments
@@ -99,7 +99,18 @@ min_temps = [
 # You cannot use any pre-existing functions (like mean()) and must perform the calculations manually.
 # Output the results of both calculations.
 
+length = len(max_temps)
+average_max = 0
+average_min = 0
+for index in range(len(max_temps)):
+    average_max = average_max + (max_temps[index] / length)
+    average_min = average_min + (min_temps[index] / length)
+    
+print(average_max)
+print(average_min)
+
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
 
-
+print(max(max_temps))
+print(min(min_temps))

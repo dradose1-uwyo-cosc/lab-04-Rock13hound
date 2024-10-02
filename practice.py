@@ -10,4 +10,4 @@ for price in prices:
 print(f"I paid ${total} for everything")
 
 #max(prices)
-#print({index})
+#print({index}
